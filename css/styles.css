@@ -1,0 +1,63 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0px;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #000;
+}
+
+.container-fluid
+{
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+.sectores
+{
+  background-color: #FFF;
+  height: 50vh;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  display: inline-block;
+  vertical-align: middle;  /* vertical alignment of the inline element */
+  overflow: hidden;
+}
+
+img{
+   max-height: 50%;
+   max-width: 50%;
+   position: absolute;
+   top: 0;
+   bottom: 0;               
+   left: 0;
+   right: 0;             
+   margin: auto;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+img:hover{
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  overflow: hidden;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  bottom: 0%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font: 400 60px/1.8 "Lato", sans-serif;
+}
