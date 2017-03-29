@@ -108,6 +108,18 @@ header.container
   padding: 0px;
 }
 
+.carousel {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.carousel>img{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
 /* EXAMPLE 8 - Center on mobile*/
 @media only screen and (max-width : 768px){
   .example-8 .navbar-brand {
@@ -129,7 +141,7 @@ header.container
 
 /* EXAMPLE 8 - Center Background */
 .example-8 .navbar-brand {
-  background: url(http://res.cloudinary.com/candidbusiness/image/upload/v1455406304/dispute-bills-chicago.png) center / contain no-repeat;
+  background: url(../images/teknoeste-logo.jpg) center / contain no-repeat;
   width: 500px;
   transform: translateX(-50%);
   left: 50%;
