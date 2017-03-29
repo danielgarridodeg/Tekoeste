@@ -13,6 +13,10 @@ body, html {
   border: none;
 }
 
+hr
+{
+  border: 1px solid #cecece;
+}
 .sectores
 {
   background-color: #FFF;
@@ -62,6 +66,31 @@ body, html {
   font: 400 60px/1.8 "Lato", sans-serif;
 }
 
+.product-image
+{
+  max-width: 50%;
+  max-height: 50%;
+  position: relative;
+  top: 0;
+  bottom: 0;               
+  left: 0;
+  right: 0;             
+  margin: auto;
+}
+
+.precio
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font: 800 24px/1.8 "Lato", sans-serif;
+  line-height: 20px;
+}
+
+p.producto
+{
+  font-size: 16px;
+}
+
 .navbar-brand
 {
   padding: 0px;
@@ -83,14 +112,18 @@ header.container
 @media only screen and (max-width : 768px){
   .example-8 .navbar-brand {
   padding: 0px; margin: 0px;
-  transform: translateX(-50%);
-  left: 50%;
+  transform: translateX(-40%);
+  left: 40%;
   position: absolute;
 }
   .example-8 .navbar-brand>img {
     height: 100%;
     width: auto;
     padding: 7px 14px; 
+  }
+
+  .caption {
+    font: 400 36px/1.8 "Lato", sans-serif;
   }
 }
 
@@ -101,6 +134,19 @@ header.container
   transform: translateX(-50%);
   left: 50%;
   position: absolute;
+}
+
+.navbar-header
+{
+  color: red;
+}
+
+.navbar-toggle {
+  border: 1px solid #000;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #000;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
@@ -132,3 +178,44 @@ footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', s
  .bottom_ul li { float:left; line-height:40px;}
  .bottom_ul li:after { content:"/"; color:#FFF; margin-right:8px; margin-left:8px;}
  .bottom_ul li a { color:#FFF;  font-size:12px;}
+
+@media only screen and (max-width : 768px){
+  .logofooter
+  {
+    font-size: 24px;
+  }
+  .footerleft p
+  {
+    font-size: 18px !important;
+  }
+  .footer-ul li
+  {
+    font-size: 24px;
+  }
+  .heading7
+  {
+    font-size: 24px;
+  }
+  .post p
+  {
+    font-size: 24px;
+  }
+  .bottom_ul li a
+  {
+    font-size: 24px;
+  }
+
+  .precio
+  {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font: 600 18px/1.8 "Lato", sans-serif;
+    line-height: 30px;
+  }
+
+  p.producto
+  {
+    font-size: 18px;
+  }
+
+}
