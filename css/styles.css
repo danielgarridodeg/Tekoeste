@@ -113,6 +113,15 @@ header.container
   padding: 0px;
 }
 
+.carousel-control
+{
+  color: #000;
+}
+
+.carousel-control>li
+{
+  color: #000 !important;
+}
 /*
  * Start Bootstrap - Full Slider (http://startbootstrap.com/)
  * Copyright 2013-2016 Start Bootstrap
