@@ -1,10 +1,10 @@
-<?php
+﻿<?php
 // Guardar los datos recibidos en variables:
 $nombre = $_POST['nombre'];
 $email = $_POST['email'];
 $telefono = $_POST['telefono'];
 $mensaje = $_POST['mensaje'];
-$dest = "tucorreo@gmail.com"; 
+$dest = "daniel.garrido.deg@gmail.com"; 
 $headers = "From:".$mensaje."<".$email.">"."\r\n" ;
 $headers = $headers."X-Mailer: PHP5\n";
 $headers = $headers."MIME-Version: 1.0" . "\n";
