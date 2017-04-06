@@ -70,7 +70,7 @@
 		                        <div id="group-telefono" class="form-group">
 		                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
 		                            <div class="col-md-8">
-		                                <input id="phone" name="phone" type="text" placeholder="Telefono" class="form-control">
+		                                <input id="telefono" name="telefono" type="text" placeholder="Telefono" class="form-control">
 		                            </div>
 		                        </div>
 		                        <div id="group-message" class="form-group">
@@ -200,10 +200,11 @@
 						    url: "contact.php",
 						    data: datos,
 						    success: function(response) { 
-								console.log(response);
+								var data = JSON.parse(response);
+								alert(data.mensaje);
 						    },
 						    error: function() {
-								console.log(response);
+								alert("Ocurrio un problema por favor comuniquese por telefono");
 						    }
 						});
 					}
